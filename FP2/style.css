@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    border: 10px solid red;
+    background-color: black;
+}
+
+header {
+    border: 10px solid blue;
+}
+
+main {
+    border: 10px solid green
+}
+
+footer {
+    border: 10px solid orange
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.mainimage-container {
+    background: url(FP2\Gym1.JPG);
+    background-size: cover;
+    width: 70%;
+}
+
+.sidebar-container {
+    color: white;
+    width: 40%;
+    justify-self: right;
+    padding-left: 36px;
+    display: inline;
+
+}
+
+.sidebar-title {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.sidebar-subtitle {
+    font-size: 35px;
+}
+
+.icons {
+    color: white;
+}
