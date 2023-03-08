@@ -44,28 +44,31 @@ footer {
 }
 
 .mainimage-container {
-    background: url(FP2\Gym1.JPG);
-    background-size: cover;
-    width: 70%;
+    background: url(https://img1.wsimg.com/isteam/ip/11f489c0-f7e5-4ab6-b569-fa96404efa93/-5431065332401903347.jpg/:/cr=t:14.79%25,l:0%25,w:100%25,h:70.42%25/rs=w:1200,h:600,cg:true);
+    height: 400px;
+    width: 800px;
+    justify-self: left;
 }
 
-.sidebar-container {
+.right-sidebar-container {
     color: white;
     width: 40%;
     justify-self: right;
-    padding-left: 36px;
-    display: inline;
-
+    padding-left: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px
 }
 
-.sidebar-title {
-    text-transform: uppercase;
-    font-size: 12px;
+
+
+
+.button {
+    display: flex;
+    align-self: end;
 }
 
-.sidebar-subtitle {
-    font-size: 35px;
-}
+
 
 .icons {
     color: white;
