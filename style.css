@@ -137,4 +137,9 @@ form {
     .right-sidebar-container {
         width: 100%;
     }
+    
+      .nav-container {
+        font-size: 12px;
+        gap: 5px;
+    }
 }
