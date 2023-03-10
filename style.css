@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: black;
+    overflow: auto;
+    position: relative;
+    border: 100px pink;
+}
+
+
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    ;
+
+}
+
+.mainimage-containerimg {
+    object-fit: cover;
+    width: 100%;
+}
+
+.right-sidebar-container {
+    color: white;
+    width: 40%;
+    justify-self: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    justify-content: space-between;
+}
+
+.right-sidebar-container p {
+    margin: 12px;
+}
+
+.nav-container a {
+    color: white;
+}
+
+.icons i {
+    color: white;
+    font-size: 44px;
+}
+
+.right-sidebar-container P:first-child {
+    margin-top: 0px;
+}
+
+.button {
+    display: flex;
+    align-self: end;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.icons {
+    color: white;
+}
+
+.schedule-container table {
+    border: 1px solid white;
+}
+
+.schedule-container table th {
+    border: 1px solid white;
+}
+
+.schedule-container table td {
+    border: 1px solid white;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .right-sidebar-container p {
+        font-size: 16px;
+    }
+
+    .mainimage-container img {
+        width: 100%;
+    }
+
+    .header-container {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .right-sidebar-container {
+        width: 100%;
+    }
+}
