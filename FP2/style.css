@@ -2,27 +2,32 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    border: 10px solid red;
     background-color: black;
+    color: white;
+
 }
 
-header {
-    border: 10px solid blue;
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: black;
+    overflow: auto;
+    position: relative;
+    border: 100px pink;
 }
 
-main {
-    border: 10px solid green
-}
 
-footer {
-    border: 10px solid orange
-}
+
 
 .footer-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
 }
+
+
 
 
 .header-container {
@@ -35,41 +40,74 @@ footer {
     display: flex;
     align-items: center;
     gap: 24px;
+    color: white;
 }
 
 .main-container {
     display: flex;
-    width: 100%;
+    ;
 
 }
 
-.mainimage-container {
-    background: url(https://img1.wsimg.com/isteam/ip/11f489c0-f7e5-4ab6-b569-fa96404efa93/-5431065332401903347.jpg/:/cr=t:14.79%25,l:0%25,w:100%25,h:70.42%25/rs=w:1200,h:600,cg:true);
-    height: 400px;
-    width: 800px;
-    justify-self: left;
+.mainimage-containerimg {
+    object-fit: cover;
+    width: 100%;
 }
 
 .right-sidebar-container {
     color: white;
     width: 40%;
     justify-self: right;
-    padding-left: 350px;
     display: flex;
     flex-direction: column;
-    font-size: 36px
+    font-size: 36px;
+    justify-content: space-between;
 }
 
+.right-sidebar-container p {
+    margin: 12px;
+}
 
+.nav-container a {
+    color: white;
+}
 
+.icons i {
+    color: white;
+    font-size: 44px;
+}
+
+.right-sidebar-container P:first-child {
+    margin-top: 0px;
+}
 
 .button {
     display: flex;
     align-self: end;
+    align-items: center;
+    gap: 8px;
 }
 
 
 
 .icons {
     color: white;
+}
+
+.schedule-container table {
+    border: 1px solid white;
+}
+
+.schedule-container table th {
+    border: 1px solid white;
+}
+
+.schedule-container table td {
+    border: 1px solid white;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
