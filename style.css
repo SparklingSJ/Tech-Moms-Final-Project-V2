@@ -27,6 +27,13 @@ body {
     align-items: center;
 }
 
+.footer-container h3 {
+    display:
+        flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 
@@ -137,8 +144,8 @@ form {
     .right-sidebar-container {
         width: 100%;
     }
-    
-      .nav-container {
+
+    .nav-container {
         font-size: 12px;
         gap: 5px;
     }
